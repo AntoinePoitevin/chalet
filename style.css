@@ -1,0 +1,141 @@
+.header
+{
+margin: 0px;
+}
+.nav
+{
+width: 12%;
+height: 100%;
+background-color: white;
+float: left;
+position: fixed;
+}
+
+.li
+{
+list-style: none;
+padding: 10px;
+margin-top: 50px;
+font-size: medium;
+}
+
+.a
+{
+color: green;
+text-decoration: none;
+font-size: large;
+}
+.a:hover
+{
+color: gold;
+font-weight: bold;
+}
+.fb
+{
+margin-top: 10px;
+text-align: center;
+font-size: larger;
+}
+.fb:hover
+{
+color: gold;
+font-weight: bold;
+}
+
+body 
+{
+margin: 0px;
+color: green;
+padding: 0px 0;
+background-color: white;
+font-family: Georgia;
+}
+.footer
+{
+background-color: white;
+color: green;
+height: auto;
+width: 100%;
+text-align: center;
+position: fixed;
+bottom: 0;
+}
+
+h1, h2, p
+{
+text-align: center;
+}
+
+.restaurent
+{  
+  width: 100%;
+  height: 500px;
+  background-image: url('restaurent.jpg');
+  background-size: cover;
+  margin-top: -20px;
+}
+.socialicon
+{
+display: flex;
+  justify-content: center;
+}
+.goldenbook
+{
+display: flex;
+  justify-content: space-between;
+width: 60%;
+height: 30%;
+}
+.temoignage
+{
+width: 35%;
+height: 350px;
+text-align: justify;
+padding: 15px;
+margin: 15px;
+box-shadow: 0px 6px 12px grey;
+color: grey;
+    font-style: italic;
+}
+.temoignage:hover
+{
+    transform: scale(1.07);
+}
+.signature
+{
+color: gold;
+    font-style: normal;
+}
+.temps
+{
+    font-style: normal;
+color: green;
+}
+.etoile [data-active=true]
+{
+    color: gold;    
+}
+.etoile [data-active=false]
+{
+    color: grey;
+}
+.jours
+{
+margin-top: 10px;
+text-align: center;
+color: green;
+list-style: none;
+}
+.horaire
+{
+width: 18%;
+height: 250px;
+box-shadow: 0px 6px 12px grey;
+}
+.heure
+{
+
+margin-top: 5px;
+color: gold;
+font-weight: bold;
+}
